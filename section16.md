@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 16 from the DART tutorial:
 
 ---
 
@@ -105,4 +104,3 @@ Observation-space diagnostics can be generated using tools like `obs_diag`, whic
 
 ---
 
-This section focuses on the types of diagnostic outputs DART provides, with an emphasis on state-space and observation-space diagnostics, as well as program-level logs. Let me know if you need any further adjustments!

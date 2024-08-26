@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 21 from the DART tutorial:
 
 ---
 
@@ -117,4 +116,3 @@ This modular approach ensures flexibility, although more complex models may requ
 
 ---
 
-This section covers how to define and implement observation types in DART, including handling both basic and customized observation types. Let me know if you need further adjustments or clarifications!

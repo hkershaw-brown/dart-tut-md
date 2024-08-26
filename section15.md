@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 15 from the DART tutorial:
 
 ---
 
@@ -101,4 +100,3 @@ Two possible solutions for assimilating observations with multi-level time diffe
 
 ---
 
-This section covers how DART experiments are designed and controlled, particularly through the use of observation sequences and various experiment types like OSSEs and OSEs. Let me know if you'd like further clarifications or adjustments!

@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 18 from the DART tutorial:
 
 ---
 
@@ -108,4 +107,3 @@ Using `link_obs.m`, you can explore the observations interactively. This tool al
 
 ---
 
-This section focuses on handling observation-space diagnostics in DART when the true state is unknown. Let me know if you need further adjustments or clarifications!

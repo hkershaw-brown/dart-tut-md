@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 14 from the DART tutorial:
 
 ---
 
@@ -96,4 +95,3 @@ Observations not listed in either will be ignored.
 
 ---
 
-This section describes the quality control mechanisms in DART for handling and evaluating observations during assimilation. Let me know if you'd like further adjustments or clarifications!

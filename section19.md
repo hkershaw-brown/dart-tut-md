@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 19 from the DART tutorial:
 
 ---
 
@@ -94,4 +93,3 @@ To assimilate observations, you need to implement the `model_interpolate` subrou
 
 ---
 
-This section explains how to create DART-compliant models by implementing a set of interfaces and integrating them with the DART framework. Let me know if you need further adjustments or clarifications!

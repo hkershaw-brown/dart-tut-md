@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 12 from the DART tutorial:
 
 ---
 
@@ -94,4 +93,3 @@ Example:
 
 ---
 
-This section discusses methods for using adaptive inflation to adjust variance in assimilation models and handle observation inconsistencies. Let me know if you need further clarifications or adjustments!

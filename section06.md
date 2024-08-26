@@ -1,4 +1,3 @@
-Here is the Markdown version of Section 6 from the DART tutorial:
 
 ---
 
@@ -75,4 +74,3 @@ Here is the Markdown version of Section 6 from the DART tutorial:
 
 ---
 
-This section explores different methods for updating observed variables, focusing on various ensemble filtering techniques and their applications. Let me know if you'd like further refinements or specific details!

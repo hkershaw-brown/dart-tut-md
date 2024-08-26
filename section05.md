@@ -1,4 +1,3 @@
-Here’s the Markdown version of Section 5 from the DART tutorial:
 
 ---
 
@@ -110,4 +109,3 @@ Results:
 
 ---
 
-This section presents a more advanced theory behind filtering, particularly focusing on non-identity observations and dealing with multiple observations in complex systems. Let me know if you need further adjustments or clarifications!

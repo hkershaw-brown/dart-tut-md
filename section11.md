@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 11 from the DART tutorial:
 
 ---
 
@@ -101,4 +100,3 @@ To build without MPI:
 
 ---
 
-This section outlines how to compile and create DART executables using `mkmf` and the process of building both MPI and non-MPI versions of programs. Let me know if you need further refinements!

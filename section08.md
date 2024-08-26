@@ -1,4 +1,3 @@
-Here is the Markdown version of Section 8 from the DART tutorial:
 
 ---
 
@@ -114,4 +113,3 @@ Two primary sources of error:
 
 ---
 
-This section focuses on methods for managing sampling error and correcting for issues like filter divergence. Let me know if you'd like further refinements or clarifications!

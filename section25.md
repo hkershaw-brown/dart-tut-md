@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 25 from the DART tutorial:
 
 ---
 
@@ -153,4 +152,3 @@ The wind equation is given by:
 
 ---
 
-This section introduces the simple 1D advection model and explores data assimilation techniques for tracer advection and wind models. Let me know if you need further clarifications or adjustments!

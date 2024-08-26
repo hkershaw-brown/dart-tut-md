@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 13 from the DART tutorial:
 
 ---
 
@@ -80,4 +79,3 @@ Ensembles
 
 ---
 
-This section introduces hierarchical group filters as a way to handle regression sampling error and explains the use of localization for improving regression accuracy. Let me know if you'd like further clarifications or adjustments!

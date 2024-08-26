@@ -1,4 +1,3 @@
-Here's the Markdown conversion of the content in Section 4 of the DART tutorial:
 
 ---
 
@@ -71,4 +70,3 @@ Here's the Markdown conversion of the content in Section 4 of the DART tutorial:
 
 --- 
 
-This section of the DART tutorial explains how to handle multivariate assimilation, with specific examples and step-by-step instructions for modifying configuration files and running tests in the Lorenz 63 model. Let me know if you need further adjustments!

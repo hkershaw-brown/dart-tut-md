@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 10 from the DART tutorial:
 
 ---
 
@@ -82,4 +81,3 @@ Two primary sources of error:
 
 ---
 
-This section explores handling non-linear relationships and regression errors between observed and unobserved variables in data assimilation. Let me know if you need further adjustments!

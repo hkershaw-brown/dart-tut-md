@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 17 from the DART tutorial:
 
 ---
 
@@ -132,4 +131,3 @@ To specify which types of observations to assimilate or evaluate (but not assimi
 
 ---
 
-This section provides a detailed overview of how to create and manage real and synthetic observation sequences in DART. Let me know if you need further adjustments or clarifications!

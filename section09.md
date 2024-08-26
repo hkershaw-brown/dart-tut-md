@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 9 from the DART tutorial:
 
 ---
 
@@ -110,4 +109,3 @@ inf_upper_bound            = 1000000.0,  1000000.0,
 
 ---
 
-This section provides methods for handling filter divergence and error using variance inflation, particularly in physical space. Let me know if you'd like further refinements or explanations!

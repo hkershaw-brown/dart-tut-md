@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 7 from the DART tutorial:
 
 ---
 
@@ -95,4 +94,3 @@ cd models/lorenz_96/work
 
 ---
 
-This section introduces additional low-order models used in DART, including exercises to explore their behavior and challenges. Let me know if you need any further adjustments or specific details!

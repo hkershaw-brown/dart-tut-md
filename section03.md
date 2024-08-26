@@ -1,6 +1,3 @@
-The content you've uploaded seems to be part of a tutorial related to the DART (Data Assimilation Research Testbed) system. The section appears to cover runtime control and documentation, particularly focusing on using configuration files to modify model behavior during runtime.
-
-Here’s a breakdown of the content in Markdown format:
 
 ---
 
@@ -109,4 +106,3 @@ print_every_nth_obs             = 0
 
 ---
 
-Let me know if you'd like to further refine this Markdown format!

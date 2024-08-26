@@ -1,4 +1,3 @@
-Here is the Markdown conversion of Section 20 from the DART tutorial:
 
 ---
 
@@ -118,4 +117,3 @@ Question: Given an observation set, can you estimate the value of \( F \)?
 
 ---
 
-This section explores how to estimate model parameters by augmenting the state vector with unknown parameters and using observations to constrain them. Let me know if you need further clarifications or adjustments!
