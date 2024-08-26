@@ -28,22 +28,14 @@ Much of DART is implemented as Fortran-90 modules and programs. In addition, DAR
 
 ```plaintext
 DART/
-│
-├── models/
-│
-├── observations/
-│
-├── assimilation_code/
-│
-├── documentation/
-│
-├── diagnostics/
-│
-├── build_templates/
-│
-├── CHANGELOG/
-│
-└── README/
+    ├── models/
+    ├── observations/
+    ├── assimilation_code/
+    ├── documentation/
+    ├── diagnostics/
+    ├── build_templates/
+    ├── CHANGELOG/
+    └── README/
 ```
 
 Explore the DART subdirectories to get familiar with the structure.
@@ -54,13 +46,13 @@ Explore the DART subdirectories to get familiar with the structure.
 
 ```plaintext
 DART/models/
-├── lorenz_63/
-├── lorenz_96/
-├── wrf/
-├── POP/
-├── cam-fv/
-├── utilities/
-└── model_mod_tools/
+            ├── lorenz_63/
+            ├── lorenz_96/
+            ├── wrf/
+            ├── POP/
+            ├── cam-fv/
+            ├── utilities/
+            └── model_mod_tools/
 ```
 
 - The **`models`** directory contains various models like Lorenz 63, Lorenz 96, WRF, etc. It also includes utility directories and a code template for adding new models.
@@ -71,10 +63,10 @@ DART/models/
 
 ```plaintext
 lorenz_96/
-├── work/
-├── matlab/
-├── tests/
-└── shell_scripts/
+        ├── work/
+        ├── matlab/
+        ├── tests/
+        └── shell_scripts/
 ```
 
 - The `work` directory is where executables are built and run.
@@ -109,9 +101,9 @@ DART Fortran-90 code comes with code, documentation, and run-time control files.
 
 ```plaintext
 DART/observations/
-├── utilities/
-├── forward_operators/
-└── obs_converters/
+                ├── utilities/
+                ├── forward_operators/
+                └── obs_converters/
 ```
 
 - **Utilities**: Tools for manipulating observation sequence files.
@@ -124,9 +116,9 @@ DART/observations/
 
 ```plaintext
 DART/documentation/
-├── DART_LAB/
-├── tutorial/
-└── html/
+                  ├── DART_LAB/
+                  ├── tutorial/
+                  └── html/
 ```
 
 - **`DART_LAB/`**: Interactive Matlab introduction to ensemble assimilation.
@@ -139,9 +131,9 @@ DART/documentation/
 
 ```plaintext
 DART/assimilation_code/
-├── programs/
-├── scripts/
-└── modules/
+                      ├── programs/
+                      ├── scripts/
+                      └── modules/
 ```
 
 - **`programs/`**: Contains all DART programs, including the filter for ensemble assimilation.
@@ -154,10 +146,10 @@ DART/assimilation_code/
 
 ```plaintext
 assimilation_code/modules/
-├── assimilation/
-├── io/
-├── utilities/
-└── observations/
+                          ├── assimilation/
+                          ├── io/
+                          ├── utilities/
+                          └── observations/
 ```
 
 - **`assimilation/`**: Contains modules for ensemble solver algorithms, like `filter_mod.f90`.

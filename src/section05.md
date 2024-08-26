@@ -8,14 +8,18 @@
 
 ### Dynamical System Overview
 - The system is governed by a stochastic difference equation:  
-  \( dxt = f(xt, t) + G(xt, t)d\beta t, \, t \geq 0 \)
+  $$
+  dxt = f(xt, t) + G(xt, t)d\beta t, \, t \geq 0
+  $$
 
 - Observations are made at discrete times:  
-  \( yk = h(xk, tk) + vk; \, k = 1,2,...; \, tk+1 > tk \geq t0 \)  
-  \( vk \sim N(0, Rk) \)
+  $$
+  yk = h(xk, tk) + vk; \, k = 1,2,...; \, tk+1 > tk \geq t0 
+  vk \sim N(0, Rk)
+  $$
 
 - The goal is to find the probability distribution for the state at time \( t \):  
-  \( p(x,t | Yt) \)
+  $$ p(x,t | Yt) $$
 
 ---
 
@@ -23,14 +27,14 @@
 
 1. **State between observations** is obtained from the difference equation.
 2. **Update state** given new observations using Bayes’ rule:
-   \[
+   $$
    p(x, tk | Ytk) = \frac{p(yk | xk, Ytk-1) p(x, tk | Ytk-1)}{p(yk | Ytk-1)}
-   \]
+   $$
 
 3. **Normalizing denominator** involves integrating the numerator:
-   \[
+   $$
    p(yk | Ytk-1) = \int p(yk | x) p(x, tk | Ytk-1) dx
-   \]
+   $$
 
 4. **Extend the state vector** to a joint state-observation vector \( z = [x, y] \), ensuring we have a prior for each observation.
 
@@ -40,9 +44,9 @@
 - Observations may be split into subsets \( yk = \{yk^1, yk^2, ..., yk^s\} \).
 - Observational errors in set \( i \) are independent from those in set \( j \).
 - Assimilation can be done sequentially for these subsets:
-  \[
+  $$
   p(yk | z) = \prod_{i=1}^{s} p(yk^i | z)
-  \]
+  $$
 
 #### Options for Non-Scalar Observations:
 1. Use matrix algebra to repeat the derivation.

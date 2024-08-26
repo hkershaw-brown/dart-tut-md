@@ -31,9 +31,9 @@ This model can be found in `models/simple_advection` and configured in the `work
 
 The wind equation is given by:
 
-\[
+$$
 \frac{\partial u}{\partial t} = -u \frac{\partial u}{\partial x}
-\]
+$$
 
 - The continuous solution can form shocks when \( u \) varies with \( x \).
 - **Upstream Lagrangian differencing** is used to avoid forming shocks.
@@ -44,15 +44,15 @@ The wind equation is given by:
 ### Wind Model Namelist Controls
 
 1. Random perturbations are applied to the wind field at every timestep:  
-   \[
+   $$
    u_i = u_i + \text{Normal}(0, W \Delta t)
-   \]
+   $$
    - **`wind_random_amp`** controls the magnitude of random perturbations.
    
 2. The mean wind field is damped to a spatial mean \( M \):  
-   \[
+   $$
    u(t + \Delta t) = u(t) - WD \Delta t \left(u(t) - M\right)
-   \]
+   $$
    - **`wind_damping_rate`** and **`mean_wind`** control the damping and mean wind values.
 
 ---
@@ -60,21 +60,21 @@ The wind equation is given by:
 ### Tracer Field and Namelist Controls
 
 - A single passive tracer is advected by the wind.
-- The tracer concentration \( C_i \) at each grid point evolves with time:
-  \[
+- The tracer concentration \\( C_i \\) at each grid point evolves with time:
+  $$
   C_i = C_i + S_i \Delta t - D \Delta t C_i
-  \]
-  - \( S_i \): Tracer source/sink rate.
-  - \( D \): Tracer destruction rate, controlled by **`destruction_rate`**.
+  $$
+  - \\( S_i \\): Tracer source/sink rate.
+  - \\( D \\): Tracer destruction rate, controlled by **`destruction_rate`**.
 
 ---
 
 ### Example Assimilation Experiment
 
 1. **Observations**:
-   - 10 equally spaced observations of wind \( u \) and tracer concentration \( C \).
+   - 10 equally spaced observations of wind \\( u \\) and tracer concentration \\( C \\).
    - Located between grid points (e.g., 0.05, 0.15, ..., 0.95).
-   - Observation errors: \( \text{var}(u) = 16.01 \), \( \text{var}(C) = 1000.2 \).
+   - Observation errors: \\( \text{var}(u) = 16.01 \), \( \text{var}(C) = 1000.2 \\).
    
 2. **Experiment**:
    - Run `./perfect_model_obs` followed by `./filter`.
@@ -94,9 +94,9 @@ The wind equation is given by:
 ### Tracer Source Model
 
 - The tracer source can evolve as a damped random walk at each grid point:
-  \[
+  $$
   S_i = S_i + \text{Normal}(0, SR) - SD (S_i - \bar{S_i})
-  \]
+  $$
   - **`source_random_amp_frac`** controls the random noise amplitude.
   - **`source_damping_rate`** controls the damping rate.
 

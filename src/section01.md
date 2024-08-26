@@ -26,9 +26,9 @@ There is significant overlap with the DART_LAB tutorial, which is also part of t
 - **Observation**: An additional observation (B).
 - **Posterior Estimate**: Updated estimate based on C and B (p(A|BC)).
 
-```math
+$$
 p(A|BC) = \frac{p(B | AC) p(A | C)}{p(B | C)} = \frac{p(B | AC) p(A | C)}{\int p(B | x) p(x | C) dx}
-```
+$$
 
 ---
 
@@ -46,24 +46,24 @@ This color scheme is consistent throughout all tutorial materials.
 
 - The product is closed for Gaussian distributions.
 
-```math
+$$
 N(\mu_1, \Sigma_1) \cdot N(\mu_2, \Sigma_2) = cN(\mu, \Sigma)
-```
+$$
 
 - **Mean**:  
-```math
+$$
 \mu = (\Sigma_1^{-1} + \Sigma_2^{-1})^{-1} (\Sigma_1^{-1} \mu_1 + \Sigma_2^{-1} \mu_2)
-```
+$$
 
 - **Covariance**:  
-```math
+$$
 \Sigma = (\Sigma_1^{-1} + \Sigma_2^{-1})^{-1}
-```
+$$
 
 - **Weight**:  
-```math
+$$
 c = \frac{1}{(2\pi)^{d/2} (\Sigma_1 + \Sigma_2)^{1/2}} \exp \left( -\frac{1}{2} (\mu_2 - \mu_1)^T (\Sigma_1 + \Sigma_2)^{-1} (\mu_2 - \mu_1) \right)
-```
+$$
 
 ---
 
@@ -82,18 +82,18 @@ c = \frac{1}{(2\pi)^{d/2} (\Sigma_1 + \Sigma_2)^{1/2}} \exp \left( -\frac{1}{2} 
 
 The following transformations are applied:
 
-```math
+$$
 x_i^u = (x_i^p - \overline{x}^p) \cdot \frac{\sigma^u}{\sigma^p} + \overline{x}^u
-```
+$$
 
 Where:
 
-- \(x_i^u\): Updated (posterior) value of the \(i\)th ensemble member.
-- \(x_i^p\): Prior value of the \(i\)th ensemble member.
-- \(\overline{x}^p\): Prior ensemble mean.
-- \(\overline{x}^u\): Posterior ensemble mean.
-- \(\sigma^p\): Prior standard deviation.
-- \(\sigma^u\): Posterior standard deviation.
+- \\(x_i^u\\): Updated (posterior) value of the \(i\)th ensemble member.
+- \\(x_i^p\\): Prior value of the \(i\)th ensemble member.
+- \\(\overline{x}^p\\): Prior ensemble mean.
+- \\(\overline{x}^u\\): Posterior ensemble mean.
+- \\(\sigma^p\\): Prior standard deviation.
+- \\(\sigma^u\\): Posterior standard deviation.
 
 ---
 
@@ -117,27 +117,27 @@ Sure! Here’s the continuation of the conversion from the PDF into Markdown:
 
 - For **d-dimensional normals** with means \(\mu_1\) and \(\mu_2\) and covariance matrices \(\Sigma_1\) and \(\Sigma_2\):
   
-```math
+$$
 N(\mu_1, \Sigma_1) \cdot N(\mu_2, \Sigma_2) = cN(\mu, \Sigma)
-```
+$$
 
 Where:
 
 - **Mean**:  
-```math
+$$
 \mu = (\Sigma_1^{-1} + \Sigma_2^{-1})^{-1} (\Sigma_1^{-1} \mu_1 + \Sigma_2^{-1} \mu_2)
-```
+$$
 
 - **Covariance**:  
-```math
+$$
 \Sigma = (\Sigma_1^{-1} + \Sigma_2^{-1})^{-1}
-```
+$$
 
 - **Weight** (ignored unless noted, since products are immediately normalized to be PDFs):
 
-```math
+$$
 c = \frac{1}{(2\pi)^{d/2} (\Sigma_1 + \Sigma_2)^{1/2}} \exp \left( -\frac{1}{2} (\mu_2 - \mu_1)^T (\Sigma_1 + \Sigma_2)^{-1} (\mu_2 - \mu_1) \right)
-```
+$$
 
 ---
 
@@ -160,18 +160,18 @@ c = \frac{1}{(2\pi)^{d/2} (\Sigma_1 + \Sigma_2)^{1/2}} \exp \left( -\frac{1}{2} 
 2. Transformations for the ensemble members:
     - Posterior update formula for each ensemble member \(x_i\):
   
-```math
+$$
 x_i^u = (x_i^p - \overline{x}^p) \cdot \frac{\sigma^u}{\sigma^p} + \overline{x}^u
-```
+$$
 
 Where:
 
-- \(x_i^u\) = updated (posterior) value of the \(i\)th ensemble member.
-- \(x_i^p\) = prior value of the \(i\)th ensemble member.
-- \(\overline{x}^p\) = prior ensemble mean.
-- \(\overline{x}^u\) = posterior ensemble mean.
-- \(\sigma^p\) = prior standard deviation.
-- \(\sigma^u\) = posterior standard deviation.
+- \\(x_i^u\\) = updated (posterior) value of the \(i\)th ensemble member.
+- \\(x_i^p\) = prior value of the \(i\)th ensemble member.
+- \\(\overline{x}^p\\) = prior ensemble mean.
+- \\(\overline{x}^u\\) = posterior ensemble mean.
+- \\(\sigma^p\\) = prior standard deviation.
+- \\(\sigma^u\\) = posterior standard deviation.
 
 ---
 
@@ -240,9 +240,7 @@ These commands help visualize how the ensemble is performing compared to the tru
 
 ---
 
-Sure! Here’s the next part of the conversion into Markdown:
 
----
 
 ### Ensemble Adjustment (Kalman) Filter (Continued)
 

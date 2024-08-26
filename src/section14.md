@@ -64,9 +64,9 @@ Observations not listed in either will be ignored.
 
 - DART QC value 7 indicates that the outlier threshold was exceeded.
 - Observations are rejected if the difference between the prior mean and observation exceeds a multiple (T) of the expected value:
-  \[
+  $$
   T \cdot \sqrt{\sigma_{\text{prior}}^2 + \sigma_{\text{obs}}^2}
-  \]
+  $$
 - **T** is set by `outlier_threshold` in `&quality_control_nml`. A negative value turns off the outlier check.
 
 **Example**:

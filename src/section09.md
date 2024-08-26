@@ -32,9 +32,9 @@ Errors can be addressed as follows:
   
 - **Naïve solution**: Variance inflation to increase spread of the prior.
   - Inflate by applying:  
-    \[
-    x_i \leftarrow \lambda \cdot (x_i - \bar{x}) + \bar{x}
-    \]
+    $$
+    x_i = \sqrt{\lambda} \cdot (x_i - \bar{x}) + \bar{x}
+    $$
   
 ---
 

@@ -88,4 +88,3 @@ Note: Even if a model (e.g., a low-order model) does not use vertical coordinate
 
 ---
 
-T
